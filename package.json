@@ -5,10 +5,7 @@
     "ng": "ng",
     "start:shell": "ng serve shell --port 4200",
     "start:mfe": "ng serve mfe --port 4201",
-    "start": "concurrently \"npm run start:shell\" \"npm run start:mfe\"",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "start": "concurrently \"npm run start:shell\" \"npm run start:mfe\""
   },
   "prettier": {
     "printWidth": 100,
